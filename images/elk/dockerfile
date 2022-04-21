@@ -1,1 +1,1 @@
-FROM quay.io/mobz/elasticsearch-head
+FROM quay.io/mobz/elasticsearch-head:5-alpine
