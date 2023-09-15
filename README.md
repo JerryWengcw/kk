@@ -1,6 +1,12 @@
 # docker images
 # gcr镜像同步
 
+FROM docker.io/calico/cni:v3.26.1
+
+FROM docker.io/calico/node:v3.26.1
+
+FROM docker.io/calico/kube-controllers:v3.26.1
+
 FROM quay.io/cephcsi/cephcsi:v3.5.1
 
 FROM k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.4.0
