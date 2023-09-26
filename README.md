@@ -1,6 +1,8 @@
 # docker images
 # gcr镜像同步
 
+FROM jenkins/jenkins:2.424
+
 FROM docker.io/calico/cni:v3.26.1
 
 FROM docker.io/calico/node:v3.26.1
