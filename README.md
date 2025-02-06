@@ -38,4 +38,5 @@ FROM k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.3.0
 FROM mariadb:10.8.2
 
 FROM openspug/spug-service
+
 FROM docker.io/library/node:latest
