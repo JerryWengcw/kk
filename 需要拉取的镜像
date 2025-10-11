@@ -1,3 +1,4 @@
+FROM prom/prometheus:latest
 FROM grafana/grafana:latest
 FROM quay.io/cephcsi/cephcsi:v3.5.1
 FROM k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.4.0
