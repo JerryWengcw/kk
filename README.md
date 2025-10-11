@@ -1,6 +1,8 @@
 # docker images
 # gcr镜像同步
 
+FROM prom/prometheus:latest
+
 FROM grafana/grafana:latest
 
 FROM jenkins/jenkins:2.424
