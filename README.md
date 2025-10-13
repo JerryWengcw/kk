@@ -1,6 +1,8 @@
 # docker images
 # gcr镜像同步
 
+FROM quay.io/prometheuscommunity/postgres-exporter:v0.18.1
+
 FROM prom/prometheus:latest
 
 FROM grafana/grafana:latest
