@@ -1,6 +1,8 @@
 # docker images
 # gcr镜像同步
 
+FROM wazuh/wazuh-certs-generator:0.0.2
+
 FROM wazuh/wazuh-indexer:4.13.1
 
 FROM wazuh/wazuh-dashboard:4.13.1
