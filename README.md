@@ -3,7 +3,7 @@
 
 FROM wazuh/wazuh-certs-generator:0.0.2
 
-FROM wazuh/wazuh-indexer:4.13.1
+FROM wazuh/wazuh-indexer:4.12.0
 
 FROM wazuh/wazuh-dashboard:4.13.1
 
