@@ -1,6 +1,8 @@
 # docker images
 # gcr镜像同步
 
+FROM docker.io/opensearchproject/opensearch:2.13.0
+
 FROM centos:7
 
 FROM quay.io/prometheuscommunity/postgres-exporter:v0.18.1
