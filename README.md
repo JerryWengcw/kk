@@ -1,9 +1,11 @@
 # docker images
 # gcr镜像同步
 
-FROM wazuh/wazuh-dashboard:4.7.3
+FROM wazuh/wazuh-indexer:4.13.1
 
-FROM wazuh/wazuh-manager:4.7.3
+FROM wazuh/wazuh-dashboard:4.13.1
+
+FROM wazuh/wazuh-manager:4.13.1
 
 FROM docker.io/opensearchproject/opensearch:2.13.0
 
