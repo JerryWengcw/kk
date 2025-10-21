@@ -1,1 +1,1 @@
-FROM wazuh/wazuh-dashboard:4.7.3
+FROM wazuh/wazuh-dashboard:4.13.1
