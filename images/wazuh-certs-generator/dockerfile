@@ -1,0 +1,1 @@
+FROM wazuh/wazuh-certs-generator:0.0.2
