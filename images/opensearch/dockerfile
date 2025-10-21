@@ -1,0 +1,1 @@
+FROM docker.io/opensearchproject/opensearch:2.13.0
