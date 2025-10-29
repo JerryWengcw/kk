@@ -1,6 +1,8 @@
 # docker images
 # gcr镜像同步
 
+FROM jenkins/jenkins:2.534-slim-jdk21
+
 FROM wazuh/wazuh-certs-generator:0.0.2
 
 FROM wazuh/wazuh-indexer:4.12.0
