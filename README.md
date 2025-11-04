@@ -1,6 +1,8 @@
 # docker images
 # gcr镜像同步
 
+FROM prom/pushgateway:V1.11.2
+
 FROM jenkins/jenkins:2.534-slim-jdk21
 
 FROM wazuh/wazuh-certs-generator:0.0.2
