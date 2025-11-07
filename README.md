@@ -1,6 +1,8 @@
 # docker images
 # gcr镜像同步
 
+FROM nginx:1.28.0
+
 FROM hashicorp/consul:1.21.3
 
 FROM prom/pushgateway:V1.11.2
