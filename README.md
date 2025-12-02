@@ -1,6 +1,8 @@
 # docker images
 # gcr镜像同步
 
+FROM prom/alertmanager:v0.29.0
+
 FROM nginx:1.28.0
 
 FROM hashicorp/consul:1.21.3
