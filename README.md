@@ -1,6 +1,8 @@
 # docker images
 # gcr镜像同步
 
+FROM timonwong/prometheus-webhook-dingtalk:v2.1.0
+
 FROM prom/alertmanager:v0.29.0
 
 FROM nginx:1.28.0
