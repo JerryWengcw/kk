@@ -1,7 +1,7 @@
 # docker images
 # gcr镜像同步
 
-FROM quay.io/prometheus/blackbox-exporter:latest
+FROM quay.io/prometheus/blackbox-exporter:v0.28.0
 
 FROM timonwong/prometheus-webhook-dingtalk:v2.1.0
 
