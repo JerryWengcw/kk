@@ -1,7 +1,7 @@
 # docker images
 # gcr镜像同步
 
-FROM ubuntu:20
+FROM ubuntu:20.04
 
 FROM pryorda/vmware_exporter:v0.18.4
 
