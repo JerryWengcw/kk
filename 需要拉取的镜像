@@ -1,3 +1,4 @@
+FROM ghcr.io/open-webui/open-webui:main
 FROM ubuntu:20.04
 FROM pryorda/vmware_exporter:v0.18.4
 FROM quay.io/prometheus/blackbox-exporter:v0.28.0
