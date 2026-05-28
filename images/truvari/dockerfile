@@ -1,0 +1,1 @@
+FROM biocontainers/truvari:5.4.0--hdf5_1.12.1
