@@ -1,3 +1,4 @@
+FROM utkuozdemir/nvidia_gpu_exporter:1.14.0
 FROM fauria/vsftpd:latest
 FROM biocontainers/truvari:5.4.0--hdf5_1.12.1
 FROM ghcr.io/open-webui/open-webui:main
